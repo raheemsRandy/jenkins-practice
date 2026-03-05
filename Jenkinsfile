@@ -31,7 +31,7 @@ pipeline {
                     env
                     """
                     echo "Hello ${params.PERSON}"
-                    echo "Give ${params.PASSWORD}"
+                    echo "Give ${params.CHOICE}"
                 }
             }
         }
